@@ -62,9 +62,8 @@ function removeFromCart(item) {
 //     cart.splice(cart.indexOf(item),1);
 //     return cart; 
  
-  } else { 
+  } 
     return "That item is not in your cart.";
-}
 }
 
 function placeOrder(creditCard) {
