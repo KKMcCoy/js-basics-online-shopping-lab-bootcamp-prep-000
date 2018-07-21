@@ -52,6 +52,7 @@ function total() {
 }
 
 function removeFromCart(item) {
+  for (let i = 0; i < cart.length; i++) {
   if (cart.indexOf(item) >= 0) { 
     cart.splice(cart.indexOf(item),1);
     return cart;
